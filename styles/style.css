@@ -1,6 +1,7 @@
-/* FONTS
-font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif; */
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --accent-font-family: "Montserrat", sans-serif;
+}
 
 body {
   background: black;
@@ -12,17 +13,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font-family);
   font-weight: bold;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font-family);
   font-weight: normal;
 }
 
 .hero {
-  background-image: url(/media/santa\ rosa\ fire.jpg);
+  background-image: url(/media/sauvie\ island.jpg);
   min-height: 60vh;
   background-position: center;
   background-repeat: none;
@@ -54,7 +55,7 @@ h2 {
 }
 
 .btn-branding {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--accent-font-family);
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
