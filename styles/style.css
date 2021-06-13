@@ -22,11 +22,6 @@ p {
   font-weight: normal;
 }
 
-img {
-  margin: 10px 10px;
-  max-height: 350px;
-}
-
 .hero {
   background-image: url(/media/sauvie\ island.jpg);
   background-position: center;
@@ -46,12 +41,12 @@ h2 {
 }
 
 .hero h1 {
-  font-size: 24px;
-  padding-top: 300px;
+  font-size: 72px;
 }
 
 .hero h2 {
-  font-size: 72px;
+  font-size: 24px;
+  padding-top: 300px;
 }
 
 .hero p {
@@ -67,8 +62,4 @@ h2 {
   background-color: white;
   border-radius: 50px;
   padding: 18px 30px;
-}
-
-.gallery {
-  margin-top: 30px;
 }
