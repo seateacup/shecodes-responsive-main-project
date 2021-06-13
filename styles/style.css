@@ -45,12 +45,12 @@ h2 {
 }
 
 .hero h2 {
-  font-size: 24px;
+  font-size: 36px;
   padding-top: 300px;
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .btn-branding {
@@ -70,5 +70,6 @@ h2 {
   }
   .hero h2 {
     padding-top: 150px;
+    font-size: 32px;
   }
 }
