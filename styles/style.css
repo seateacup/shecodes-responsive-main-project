@@ -96,3 +96,15 @@ h2 {
     font-size: 32px;
   }
 }
+
+@media (max-width: 768px) {
+  .about-section h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-section {
+    text-align: center;
+  }
+}
