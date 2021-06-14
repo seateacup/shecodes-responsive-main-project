@@ -64,6 +64,29 @@ h2 {
   padding: 18px 30px;
 }
 
+.about-section h1,
+h2 {
+  text-transform: uppercase;
+}
+
+.about-section h1 {
+  font-family: var(--main-font-family);
+  font-weight: bold;
+  font-size: 64px;
+  color: white;
+}
+
+.about-section h2 {
+  color: #f28482;
+  font-size: 18px;
+  font-family: var(--main-font-family);
+  font-weight: bold;
+}
+
+.camera {
+  background-color: #2d2727;
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 48px;
