@@ -95,6 +95,10 @@ h2 {
     padding-top: 150px;
     font-size: 32px;
   }
+  .about-text {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 768px) {
