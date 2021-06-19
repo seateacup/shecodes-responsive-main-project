@@ -99,6 +99,7 @@ h2 {
   color: white;
   text-align: center;
   letter-spacing: 10px;
+  margin-bottom: 80px;
 }
 
 @media (max-width: 576px) {
