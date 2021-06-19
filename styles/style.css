@@ -149,6 +149,9 @@ p {
   .gallery-hero h1 {
     font-size: 50px;
   }
+  .contact h1 {
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 768px) {
