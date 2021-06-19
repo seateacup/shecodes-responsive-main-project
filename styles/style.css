@@ -83,6 +83,10 @@ h2 {
   font-weight: bold;
 }
 
+.about-section img {
+  max-width: 600px;
+}
+
 .camera {
   background-color: #2d2727;
 }
@@ -98,6 +102,10 @@ h2 {
   .about-text {
     display: block;
     margin: 0 auto;
+  }
+
+  .about-section img {
+    max-width: 350px;
   }
 }
 
