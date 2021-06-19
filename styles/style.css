@@ -91,6 +91,16 @@ h2 {
   background-color: #2d2727;
 }
 
+.gallery-hero h1 {
+  font-family: var(--main-font-family);
+  font-size: 72px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 48px;
