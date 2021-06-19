@@ -130,6 +130,45 @@ p {
   display: inline;
 }
 
+.logo {
+  max-height: 70px;
+}
+
+nav {
+  padding: 20px 0px;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: var(--main-font-family);
+  text-transform: uppercase;
+  line-height: 70px;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+  color: #f28482;
+}
+
+@media (max-width: 400px) {
+  nav li {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 48px;
