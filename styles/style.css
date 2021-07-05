@@ -193,6 +193,21 @@ nav a:hover {
   }
 }
 
+footer {
+  padding: 20px 0px;
+}
+
+footer a {
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+footer p {
+  font-size: 16px;
+  color: white;
+  text-align: right;
+}
+
 @media (max-width: 768px) {
   .about-section h1 {
     font-size: 48px;
