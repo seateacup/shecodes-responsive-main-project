@@ -152,6 +152,10 @@ nav li {
   margin-left: 20px;
 }
 
+nav li.active a {
+  color: #f28482;
+}
+
 nav a {
   text-decoration: none;
   color: white;
@@ -165,6 +169,11 @@ nav a:hover {
 footer {
   padding: 20px 0px;
   font-family: var(--main-font-family);
+}
+
+footer hr {
+  color: white;
+  width: 1000px;
 }
 
 footer a {
