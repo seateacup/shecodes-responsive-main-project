@@ -177,8 +177,15 @@ footer hr {
 }
 
 footer a {
-  font-size: 22px;
+  font-size: 16px;
   padding: 0px 5px;
+  color: white;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  color: #f28482;
 }
 
 footer p {
