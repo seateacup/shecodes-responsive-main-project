@@ -162,6 +162,21 @@ nav a:hover {
   color: #f28482;
 }
 
+footer {
+  padding: 20px 0px;
+  font-family: var(--main-font-family);
+}
+
+footer a {
+  font-size: 22px;
+  padding: 0px 5px;
+}
+
+footer p {
+  font-size: 16px;
+  color: white;
+}
+
 @media (max-width: 400px) {
   nav li {
     font-size: 14px;
@@ -191,21 +206,6 @@ nav a:hover {
   .contact h1 {
     font-size: 50px;
   }
-}
-
-footer {
-  padding: 20px 0px;
-}
-
-footer a {
-  font-size: 22px;
-  padding-left: 10px;
-}
-
-footer p {
-  font-size: 16px;
-  color: white;
-  text-align: right;
 }
 
 @media (max-width: 768px) {
